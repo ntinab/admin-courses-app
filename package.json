@@ -1,0 +1,52 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bcad1591/react-date-picker": "^0.1.1",
+    "antd": "^5.1.6",
+    "axios": "^1.2.6",
+    "bootstrap": "^5.2.3",
+    "filestack-js": "^3.25.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.42.1",
+    "react-redirect": "^1.0.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "react-tailwindcss-datepicker": "^1.4.1",
+    "redirect": "^0.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "json-server": "^0.17.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "api": "json-server --watch db.json --port 3001",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

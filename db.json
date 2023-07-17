@@ -1,0 +1,170 @@
+{
+  "stats": [
+    {
+      "id": "01",
+      "title": "Beneficiaries",
+      "amount": "25.000"
+    },
+    {
+      "id": "02",
+      "title": "Youth",
+      "amount": "45%"
+    },
+    {
+      "id": "03",
+      "title": "Years Running",
+      "amount": "8"
+    },
+    {
+      "id": "04",
+      "title": "Women",
+      "amount": "70%"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Introduction to TypeScript",
+      "imagePath": "/courses/typescript.jpg",
+      "description": "TypeScript is a free and open source high-level programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. ",
+      "duration": "3 weeks",
+      "price": {
+        "early_bird": 500,
+        "normal": 100
+      },
+      "online": false,
+      "dates": {
+        "start_date": "2023-02-17",
+        "end_date": "2023-03-10"
+      },
+      "id": "01"
+    },
+    {
+      "title": "Introduction to Vue.JS",
+      "imagePath": "/courses/vue.png",
+      "description": "Vue.js (commonly referred to as Vue; pronounced \"view\" is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+      "duration": "3 weeks",
+      "price": {
+        "early_bird": 50,
+        "normal": 100
+      },
+      "online": false,
+      "dates": {
+        "start_date": "2023-03-10",
+        "end_date": "2023-03-31"
+      },
+      "id": "02"
+    },
+    {
+      "title": "Introduction to React",
+      "imagePath": "/courses/reactjs.jpg",
+      "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.",
+      "duration": "1 month",
+      "price": {
+        "early_bird": 100,
+        "normal": 300
+      },
+      "online": false,
+      "dates": {
+        "start_date": "2023-02-11",
+        "end_date": "2023-03-11"
+      },
+      "id": "03"
+    },
+    {
+      "title": "Introduction to Node.JS",
+      "imagePath": "/courses/nodejs.png",
+      "description": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.\n\nNode.js lets developers use JavaScript to write command line tools and for server-side scripting. The functionality of running scripts server-side produces dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a \"JavaScript everywhere\" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.\n\nNode.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).\n\nThe Node.js distributed development project was previously governed by the Node.js Foundation, and has now merged with the JS Foundation to form the OpenJS Foundation. OpenJS Foundation is facilitated by the Linux Foundation's Collaborative Projects program.",
+      "duration": "1 month",
+      "price": {
+        "early_bird": 800,
+        "normal": 300
+      },
+      "online": false,
+      "dates": {
+        "start_date": "2023-02-15",
+        "end_date": "2023-03-15"
+      },
+      "id": "04"
+    },
+    {
+      "title": "Introduction to JavaScript",
+      "imagePath": "/courses/js.png",
+      "description": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.\n\nJavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). ",
+      "duration": "1 month",
+      "price": {
+        "early_bird": 300,
+        "normal": 500
+      },
+      "online": false,
+      "dates": {
+        "start_date": "2023-02-17",
+        "end_date": "2023-03-17"
+      },
+      "id": "05"
+    },
+    {
+      "title": "Introduction to Express.JS",
+      "imagePath": "/courses/expressjs.jpg",
+      "description": "Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.[3] It has been called the de facto standard server framework for Node.js.",
+      "duration": "2 months",
+      "price": {
+        "early_bird": 300,
+        "normal": 500
+      },
+      "online": true,
+      "dates": {
+        "start_date": "2023-03-01",
+        "end_date": "2023-05-01"
+      },
+      "id": "06"
+    },
+    {
+      "title": "Introduction to Next.JS",
+      "imagePath": "/courses/next.jpeg",
+      "description": "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites. ",
+      "duration": "2 months",
+      "price": {
+        "early_bird": 300,
+        "normal": 500
+      },
+      "online": true,
+      "dates": {
+        "start_date": "2023-03-01",
+        "end_date": "2023-05-01"
+      },
+      "id": "07"
+    },
+    {
+      "title": "Introduction to Unity ",
+      "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development.\n\nThe engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations and other experiences. The engine has been adopted by industries outside video gaming, such as film, automotive, architecture, engineering, construction, and the United States Armed Forces.",
+      "duration": "3 months",
+      "price": {
+        "early_bird": 500,
+        "normal": 700
+      },
+      "online": true,
+      "dates": {
+        "start_date": "2023-02-17",
+        "end_date": "2023-05-17"
+      },
+      "imagePath": "/courses/unity.jpg",
+      "id": "5Kg572q"
+    },
+    {
+      "title": "- Edit -",
+      "description": "Edit",
+      "duration": "3 months",
+      "price": {
+        "early_bird": 300,
+        "normal": 500
+      },
+      "online": true,
+      "dates": {
+        "start_date": "2023-02-17",
+        "end_date": "2023-05-17"
+      },
+      "imagePath": "https://as2.ftcdn.net/v2/jpg/03/42/37/93/1000_F_342379310_FxjYQTbWRNPRb79iRnpIPDAQj2BHzIy5.jpg",
+      "id": "NB8mmzK"
+    }
+  ]
+}
